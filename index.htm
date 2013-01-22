@@ -9,8 +9,19 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-	padding-top: 60px;
-	padding-bottom: 40px;
+	/*padding-top: 60px;
+	padding-bottom: 40px;*/
+	padding: 2em;
+	padding-bottom: 0;
+	background: #FFF url('assets/img/body-background.jpg') repeat;
+	color: #222;
+      }
+      
+      .container {
+	padding-top: 10px;
+	background: rgba(255,255,255,0.96) url('assets/img/container-background.png') repeat-y;
+	background-size: 100% auto;
+	box-shadow: 0 0 10px #000;
       }
       
       footer {
@@ -18,14 +29,14 @@
 	text-align:center;
       }
       
+      
       .sidebar-nav {
 	padding: 9px 0;
       }
       
       .slide-unit {
-	background-color: #CCC;
 	padding: 1em;
-	margin: 0.5em;
+	margin: 0.5em 0.5em -0.4em;
 	border-radius: 10px;
       }
       
@@ -36,8 +47,39 @@
 	
       }
       
+      
       .row {
-	margin: 0 0em;
+	margin: 0 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+      }
+      
+      .head-section {
+	background: #0D0C11 url('assets/img/head-background.jpg') no-repeat;
+	background-size: inherit 100%;
+	color: #FFF;
+	padding: 0;
+	/*border-radius: 10px;*/
+	margin: 0;
+	/*box-shadow: 3px 3px 10px #000;*/
+      }
+      
+      .head-section>.row {
+	padding: 0;
+      }
+      
+      .fb-section {
+	width: 320px;
+	padding: 0 1em;
+	padding-top: -2.5em;
+	padding-bottom: 1em;
+	border-radius: 5px;
+	margin: -1.5em 2em 15px;
+	background-color: rgba(255,255,255,0.5);
+      }
+      
+      .navbar {
+	box-shadow: 0px 3px 5px #555;
       }
     </style>
      <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -76,10 +118,9 @@
     </div>
     
      <div class="container">
-      <div class="row">
 	<div class="span9"></div>
 	<div class="date-section pull-right">2013/07/08~07/12</div>
-      </div>
+      <div class="row head-section">
       <div class="row">
       <div class="span6 slide-unit">
 	<div id="myCarousel" class="carousel slide">
@@ -100,30 +141,32 @@
 	  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 	</div>
 	</div>
-	<div class="span5 intro">
+	<div class="span4 intro">
 	  <h1>我是介紹</h1>
 	  <p> 這是一些介紹什麼的……</p>
-	  <p class="pull-right"> <a href="#" class="btn">更多</a> </p>
+	  <p class=""> <a href="#" class="btn">更多</a> </p>
+	</div>
+	</div>
+	<p>
+	  <a class="btn btn-primary btn-large pull-right" style="margin: 0.8em 2em 2em;">我要報名»</a>
+	</p>
+	      <div class="row">
+	<div class="fb-section visible-desktop">
+	  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2F2012imcamp&amp;send=false&amp;layout=standard&amp;width=320&amp;show_faces=true&amp;font&amp;colorscheme=light&amp;action=like&amp;height=60" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:320px; height:60px;" allowTransparency="true"></iframe>
 	</div>
       </div>
-      <p>
-	<a class="btn btn-primary btn-large pull-right">我要報名»</a>
-      </p>
-      <div class="row">
-	<div class="span6">
-	  <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2F2012imcamp&amp;send=false&amp;layout=standard&amp;width=300&amp;show_faces=true&amp;font&amp;colorscheme=light&amp;action=like&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:80px;" allowTransparency="true"></iframe>
-	</div>
       </div>
+      <hr>
       <div class="row">
 	<h2>What is IM CAMP?</h2>
-	<div class="span5">
+	<div class="feature-section span5">
 	  <ul><li><h3>呵</h3></li>
 	  <p>
 	    好吃！
 	  </p>
 	  </ul>
 	</div>
-	<div class="span5">
+	<div class="feature-section span5">
 	  <ul><li><h3>呵</h3></li>
 	  <p>
 	    好吃！
