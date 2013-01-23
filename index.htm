@@ -7,12 +7,9 @@
     
     <!-- Style Sheets -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <style type="text/css">
       body {
-	/*padding-top: 60px;
-	padding-bottom: 40px;*/
-	padding: 2em;
-	padding-bottom: 0;
 	background: #FFF url('assets/img/body-background.jpg') repeat;
 	color: #222;
       }
@@ -55,12 +52,12 @@
       }
       
       .head-section {
-	background: #0D0C11 url('assets/img/head-background.jpg') no-repeat;
+	background: #050509 url('assets/img/head-background.jpg') no-repeat;
 	background-size: inherit 100%;
 	color: #FFF;
-	padding: 0;
+	padding: 3em 0 0;
 	/*border-radius: 10px;*/
-	margin: 0;
+	margin: 0 0 1em;
 	/*box-shadow: 3px 3px 10px #000;*/
       }
       
@@ -81,8 +78,33 @@
       .navbar {
 	box-shadow: 0px 3px 5px #555;
       }
+      
+      hr {
+	border-bottom: 3px dotted #DA770E;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	width: 80%;
+	margin: 1em auto;
+	background-color: rgba(0,0,0,0);
+      }
+      
+      @media (max-width: 979px) {
+	.navbar {
+	  padding-bottom: 0px;
+	  margin-bottom: 0px;
+	}
+	
+	.head-section {
+	  margin-top: 0;
+	  padding-top: 0;
+	}
+	
+	.container {
+	  padding-top: 0;
+	}
+      }
     </style>
-     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -118,9 +140,8 @@
     </div>
     
      <div class="container">
-	<div class="span9"></div>
-	<div class="date-section pull-right">2013/07/08~07/12</div>
       <div class="row head-section">
+	<div class="date-section pull-right">2013/07/08~07/12</div>
       <div class="row">
       <div class="span6 slide-unit">
 	<div id="myCarousel" class="carousel slide">
@@ -156,7 +177,6 @@
 	</div>
       </div>
       </div>
-      <hr>
       <div class="row">
 	<h2>What is IM CAMP?</h2>
 	<div class="feature-section span5">
