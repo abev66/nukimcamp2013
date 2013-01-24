@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <title>我要報名 - 高大資管營 '13</title>
+    <meta content="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+    
+    <!-- Style Sheets -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/mainstyle.css" rel="stylesheet">
+    <style type="text/css">
+    
+      #content-table {
+	width: 70%;
+	margin: 2em auto;
+	border: none;
+      }
+      
+      #content-table td {
+	line-height: 2em;
+      } 
+      
+      #size-table {
+	width: 300px;
+	margin: 2em auto;
+	border: 1px solid #333;
+      }
+      
+      #size-table td{
+	border: 1px dashed #333;
+	text-align: center;
+      }
+      
+      .table-item {
+	width: 9em;
+	text-align: center;
+	background-color: rgba(235,222,255,0.5);
+	color: #8E0002;
+      }
+      
+      .table-content {
+	padding-left: 1em;
+	background-color: rgba(255,234,127,0.5);
+	border-bottom: 1px dotted #8E0002;
+      }
+      
+      ol.trf {
+	margin-left: 10em;
+	display: block;
+	width: 80%;
+      }
+      
+      #map {
+	display: block;
+	margin: 1em auto;
+	width: 80%;
+      }
+      
+      #drive {
+      }
+      
+      .trdiv {
+	width: 88%;
+	padding: 1em;
+	margin: 0.5em auto;
+	height: 1.2em;
+	overflow: hidden;
+	transition: all 500ms;
+      }
+      
+      @media (max-width: 979px) {
+	#content-table {
+	  width: 100%;
+	  padding: 0;
+	  table-layout: fixed;
+	  overflow: hidden;
+	}
+	
+	.table-item {
+	  width: 7.5em
+	}
+      }
+    </style>
+    
+    <script>
+      function expend(item_name) {
+	$("#drive").css("height","1.2em");
+	$("#thsrc").css("height","1.2em");
+	$("#train").css("height","1.2em");
+	$("#bus").css("height","1.2em");
+	
+	$(item_name).css("height","auto");
+      }
+    </script>
+    
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+  </head>
+  <body>
+     <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#"><span class="visible-desktop"><img src="assets/img/logo-nav2.png" id="logo" /></span><span id="logo-spacer"></span>霍格華資 - '13 高大資管營</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right">
+              <li class="active"><a href="index.htm">首頁</a></li>
+              <li><a href="regist.htm">報名</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">介紹 <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="intro.htm">活動介紹</a></li>
+                  <li><a href="members.htm">人員名單</a></li>
+                </ul>
+              </li>
+              <li><a href="sponsors.htm">贊助</a></li>
+              <li><a href="regist.htm#faq">FAQ</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+     <div class="container">
+     <h1>我要報名</h1>
+     <hr />
+      <div class="row">
+	<h3>報名須知</h3>
+		<table id="content-table">
+			<tr>
+				<td class="table-item">營隊時間</td>
+				<td class="table-content">2013 年 7 月 8 日至 7 月 12 日</td>			
+			</tr>
+			<tr>
+				<td class="table-item">活動地點</td>
+				<td class="table-content">國立高雄大學 <sup>[<a href='#direct'>怎麼到？</a>]</sup></td>
+			</tr>
+			<tr>
+				<td class="table-item">報名資格</td>
+				<td class="table-content">全國各地區公私立高中職學生</td>			
+			</tr>
+			<tr>
+				<td class="table-item">招收人數</td>
+				<td class="table-content">64 人</td>
+			</tr>
+			<tr>			
+				<td class="table-item">報名費用</td>
+				<td class="table-content">新台幣 3,900 元整（包含食宿、營服、講師、課程教材等）
+					<ul>
+						<li>三人團報優惠每人新台幣 3,600 元整</li>
+						<li>至「高大第二屆資管營」粉絲頁按讚可減免新台幣 100 元整
+							<ol>
+								<li>以上兩種優惠方式只能擇一使用。</li>
+								<li>匯款時請統一匯新台幣 3,900 元整，優惠的金額將在營隊的最後一天退費。</li>
+							</ol>
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="table-item">錄取條件</td>
+				<td class="table-content">採先報名先錄取</td>
+			</tr>
+			<tr>
+				<td class="table-item">報名開始時間</td>
+				<td class="table-content">民國 102 年 1 月 30 日開始開放報名。</td>
+			</tr>
+			<tr>
+				<td class="table-item">報名結束時間</td>
+				<td class="table-content" style='border: none;'>網路報名截止時間為民國 102 年 5 月 31 日 24 點整。<br />
+					紙本報名截止時間為民國 102 年 6 月 9 日，以郵戳為憑。</td>
+			</tr>
+
+		</table>
+      </div>
+      <div class="row">
+	<div style='text-align: center; margin-bottom: 4em;'>
+	  <a class='btn btn-primary btn-large' href='registion.htm' />報名</a>
+	</div>
+      </div>
+      <a name='faq' class='anchor'></a>
+      <h1>常見問題</h1>
+<hr/>
+<h4>資管營有證書嗎？</h4>
+<p>有，在營隊最後一天將核發證書給所有小隊員，並在上面附上照片。</p>
+<hr/>
+<h4>若有任何急迫性的問題，該直接連絡誰呢？</h4>
+<ul style="margin-left: 5em;">
+	<li>營長： <a href='tel:0988009525'>0988009525</a> （伍）</li>
+	<li>副營長： <a href='tel:0921243429'>0921243429</a> （林）</li>
+	<li>報名相關問題請洽： <a href='tel:0987593698'>0987593698</a> （蔡）</li>
+</ul>
+
+<hr/>
+<a name='direct' class='anchor'></a>
+<h4>如何到高雄大學？</h4>
+<div id='map'>
+<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.tw/maps?f=q&amp;source=s_q&amp;hl=zh-TW&amp;geocode=&amp;q=%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8&amp;aq=&amp;sll=23.63446,120.970459&amp;sspn=6.327923,7.064209&amp;brcurrent=3,0x346e0f2e35f79637:0x506db2d542f0ea0d,0,0x346e43517a7a741b:0x4826a24a54732a37&amp;ie=UTF8&amp;hq=%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8&amp;t=m&amp;cid=16638128726931822066&amp;hnear=&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.tw/maps?f=q&amp;source=embed&amp;hl=zh-TW&amp;geocode=&amp;q=%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8&amp;aq=&amp;sll=23.63446,120.970459&amp;sspn=6.327923,7.064209&amp;brcurrent=3,0x346e0f2e35f79637:0x506db2d542f0ea0d,0,0x346e43517a7a741b:0x4826a24a54732a37&amp;ie=UTF8&amp;hq=%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8&amp;t=m&amp;cid=16638128726931822066&amp;hnear=&amp;z=14&amp;
+iwloc=A" style="color:#0000FF;text-align:left">檢視較大的地圖</a></small>
+</div>
+<div id='drive' class='trdiv'><a class='btn btn-primary' onclick='javascript: expend("#drive");'>自行開車</a>
+<p>由岡山、橋頭方向來：省道台1線→（右轉）德民路→（右轉）後昌新路→藍昌路→（左轉）大學南路→本校。</p>
+<p>由梓官方向來：省道台17線（往楠梓）→（左轉）大學南路→本校。 </p>
+<p>由右昌方向來：省道台17線（往梓官）→（右轉）大學南路→本校。 </p>
+<p>由後勁方向來：加昌路→（右轉）後昌新路→藍昌路→（左轉）大學南路→本校。</p>
+<p>從高雄市區來：</p>
+<ol class='trf'>
+<li>民族一路→楠陽路橋（往台南）→高楠公路（省道台1線）→（左轉）德民路→（右轉）藍昌路→（左轉）大學南路→本校。</li>
+<li>博愛三路→（左轉）大中路→（直上）大中路陸橋→（右轉）翠華路→左楠路→（左轉）後昌路→後昌新路→藍昌路→（左轉）大學南路→本校。</li>
+<li>中華一路→中華陸橋（往楠梓）→翠華路→左楠路→（左轉）後昌路→後昌新路→藍昌路→（左轉）大學南路→本校。</li>
+</ol>
+<p>從遠方來：（行駛國道1、3號高速公路）</p>
+<ol class='trf'>
+<li>國道1號高速公路（往高鐵左營站）→國到10號終點→（右轉）翠華路→左楠路→（左轉）後昌路→後昌新路→藍昌路→（左轉）大學南路→本校。</li>
+<li>國道1號高速公路（楠梓/大社交流道下）→（右轉）楠陽路→楠陽陸橋（往右昌、後勁、加工區）→加昌路→（右轉）後昌新路→藍昌路→（左轉）大學南路→本校。</li>
+<li>國道3號高速公路（往國道10號）→國道10號終點→（右轉）翠華路→左楠路→（左轉）後昌路→後昌新路→藍昌路→（左轉）大學南路→本校。</li>
+</ol>
+</div>
+<div id='thsrc' class='trdiv'><a class='btn btn-primary' onclick='javascript: expend("#thsrc");'>搭乘高鐵</a>
+<p>高鐵（左營站）下車，轉搭高雄捷運至R19（楠梓加工區站），再轉搭紅56號公車到校區。</p>
+</div>
+<div id='train' class='trdiv'>
+<a class='btn btn-primary' onclick='javascript: expend("#train");'>搭乘火車</a>
+<ol class='trf'>
+<li>台鐵（高雄站）下車，轉搭高雄捷運至R19（楠梓加工區站），再轉搭紅56號接駁公車到校區。</li>
+<li>台鐵（新左營站）下車，轉搭高雄捷運至R19（楠梓加工區站），再轉搭紅56號接駁公車到校區。</li>
+<li>台鐵（楠梓站）下車，過街後在右前方「高雄客運站」（楠梓站）搭乘22號公車到校區。</li>
+</ol>
+</div>
+<div id='bus' class='trdiv'>
+<a class='btn btn-primary' onclick='javascript: expend("#bus");'>搭乘公車、客運、捷運</a>
+<ul>
+<li>高雄捷運（接駁公車）</li>
+<li>搭乘高雄捷運R19（楠梓加工區站），再轉搭紅56號接駁公車到校區。</li>
+<li>高雄市公車客運，請參照6、28、29、205、218、219、245、301號公車路線及時間表。</li>
+<li>國道客運： 可搭乘（往高雄─經楠梓）之班車，並於楠梓站下車，再搭乘計程車至本校。
+<ol>
+  <li>統聯客運：高雄─台北、高雄─台中（經朝馬站）、高雄─北港─三條崙</li>
+  <li>阿羅哈客運：高雄─台北、高雄─台中</li>
+  <li>和欣客運：高雄─台北、高雄─嘉義、高雄─新營</li>
+  <li>高雄客運：高雄─台中、高雄─墾丁</li>
+</ol>
+</div>
+<hr/>
+<h4>營隊時間及報到時間</h4>
+<ul style="margin-left: 5em;">
+<li>營隊時間：2012/7/8 ~ 7/12</li>
+<li>報到時間：2012/7/8  11:30 至 12:00 為報到集合時間</li>
+</ul>
+<hr/>
+<h4>當天報到時會有附中餐嗎？</h4>
+<p>因為怕拖到開場時間，並沒有附中餐喔，所以請同學自備午餐並於 13:00 以前用餐完畢。</p>
+<hr/>
+<h4>寄完報名表後，最晚何時要匯錢呢？</h4>
+<p>請於報名表寄出後 5 天內完成匯款（以郵戳為憑）。</p>
+<hr/>
+<h4>團報、按讚的優惠是減免在報名費嗎？</h4>
+<p>不是唷，報名費固定 3,900 元，營期結束後會統一退優惠的費用。</p>
+<hr/>
+<h4>優惠活動（團體報名）如果我已經報名，但是我朋友又有報名，可以算團報嗎？</h4>
+<p>如果是於報名及匯款後發現有此問題，那就不能算團報喔！請同學於報名前找好團報對象在報名。</p>
+<hr/>
+<a name='stable' class='anchor'></a>
+<h4>請問會有營服嗎？尺寸大小是怎麼看的？</h4>
+<p>有一件營服唷！！！關於尺寸大小請參考尺寸丈量表：</p>
+		<table id='size-table'>
+			<thead>
+			  <tr>
+				<th>尺寸</th>
+				<th>肩寬/cm</th>
+				<th>胸寬/cm</th>
+				<th>衣長/cm</th>
+			  </tr>
+			</thead>
+		  <tbody>
+			<tr>
+				<td>3S</td>
+				<td>35</td>
+				<td>41</td>
+				<td>52</td>
+			</tr>
+			<tr>
+				<td>2S</td>
+				<td>38</td>
+				<td>42.5</td>
+				<td>59</td>
+			</tr>
+			<tr>
+				<td>XS</td>
+				<td>39.5</td>
+				<td>44.5</td>
+				<td>61</td>
+			</tr>
+			<tr>
+				<td>S</td>
+				<td>41.5</td>
+				<td>47</td>
+				<td>63</td>
+			</tr>
+			<tr>
+				<td>M</td>
+				<td>43</td>
+				<td>50</td>
+				<td>66</td>
+			</tr>
+			<tr>
+				<td>L</td>
+				<td>44</td>
+				<td>51.5</td>
+				<td>68</td>
+			</tr>
+			<tr>
+				<td>XL</td>
+				<td>48</td>
+				<td>54</td>
+				<td>70</td>
+			</tr>
+			<tr>
+				<td>2L</td>
+				<td>51</td>
+				<td>57</td>
+				<td>73</td>
+			</tr>
+			<tr>
+				<td>3L</td>
+				<td>52.5</td>
+				<td>60</td>
+				<td>75</td>
+			</tr>
+		  </tbody>
+		</table>
+<hr/>
+<h4>繳費後臨時不能去了怎麼辦？</h4>
+<p>請參考<a href='files/refund.pdf'>退費標準</a>。</p>
+<hr/>
+<h4>我想跟我好朋友睡，可以嗎？房間多大呢？</h4>
+<p>基本上小隊跟寢室是隨機分配，房間為四人房來參加營隊除了可以認識來自不同學校的同學外，更可在學習各種有趣的課程裡從中互相學習如何過團體生活。</p>
+<hr/>
+<h4>已寄出報名表或已上網填寫成功但沒收到我們的回信怎辦？</h4>
+<p>請來信 <a href='mailto:nukimcamp@gmail.com'>nukimcamp@gmail.com</a> 詢問或來電 <a href='tel:0987593698'>0987593698</a> （蔡）。</p>
+<hr/>
+<h4>還有其他問題，去哪裡留言問？</h4>
+<p>歡迎來我們的 <a href="https://www.facebook.com/2012imcamp">Facebook 粉絲專頁</a> 留言或者來信 <a href='mailto:nukimcamp@gmail.com'>nukimcamp@gmail.com</a> 詢問。</p>
+
+	<hr />
+      <footer>
+	<div> Copyright © 2013 國立高雄大學資管營 All Rights Reserved. </div>
+	<div> <a href="http://www.im.nuk.edu.tw/"><img src='assets/img/icon-nuk.png' style='width:1em' /> 國立高雄大學資訊管理系</a> | <a href="https://www.facebook.com/2012imcamp"><img src='assets/img/icon-fb.png' style='width:1em' /> Facebook 粉絲專頁</a> | <a href="mailto:nukimcamp@gmail.com"><img style='width:1em' src='assets/img/icon-connect.png' /> 連絡我們</a></div>
+      </footer>
+    </div>
+    <!-- Java Script -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
