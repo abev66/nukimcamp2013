@@ -108,3 +108,14 @@
 	  margin-left: 4.5em;
 	}
       }
+      
+      @media (max-width: 480px) {
+	body{
+	  padding: 0;
+	  margin: 0;
+	}
+	
+	.navbar-inner {
+	  margin: 0 1.2em;
+	}
+      }
