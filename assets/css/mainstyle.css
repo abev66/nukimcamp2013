@@ -4,7 +4,7 @@
 
     @font-face {
       font-family : "Droid Sans Fallback";
-      src : url('assets/fonts/DroidSansFallback.ttf');
+      src : url('../fonts/DroidSansFallback.ttf');
     }
 
     body {
