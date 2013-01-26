@@ -1,6 +1,11 @@
+@import url('http://fonts.googleapis.com/css?family=Stalemate');
+@import url('http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300');
+@import url('http://fonts.googleapis.com/css?family=Quintessential');
+
     body {
 	background: #FFF url('../img/body-background.jpg') repeat;
 	color: #333;
+	font-family: "Roboto Condensed", "微軟正黑體", "Heiti TC", "DroidSans Fallback", "文泉驛微米黑", "文泉驛正黑", sans-serif;
       }
       
       .container {
@@ -25,6 +30,8 @@
 	font-weight: normal;
 	margin-left: 0.5em;
 	text-shadow: 2px 2px 4px #641;
+	font-size: 3em;
+ 	font-family: "Stalemate"; 
       }
       
       h3 {
