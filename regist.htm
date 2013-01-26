@@ -57,8 +57,6 @@
 	width: 80%;
       }
       
-      #drive {
-      }
       
       .trdiv {
 	width: 88%;
@@ -84,13 +82,13 @@
     </style>
     
     <script>
-      function expend(item_name) {
+      function expend(item_name, obj_height) {
 	$("#drive").css("height","1.2em");
 	$("#thsrc").css("height","1.2em");
 	$("#train").css("height","1.2em");
 	$("#bus").css("height","1.2em");
 	
-	$(item_name).css("height","auto");
+	$(item_name).css("height",obj_height);
       }
     </script>
     
@@ -205,7 +203,7 @@
 <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.tw/maps?f=q&amp;source=s_q&amp;hl=zh-TW&amp;geocode=&amp;q=%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8&amp;aq=&amp;sll=23.63446,120.970459&amp;sspn=6.327923,7.064209&amp;brcurrent=3,0x346e0f2e35f79637:0x506db2d542f0ea0d,0,0x346e43517a7a741b:0x4826a24a54732a37&amp;ie=UTF8&amp;hq=%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8&amp;t=m&amp;cid=16638128726931822066&amp;hnear=&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.tw/maps?f=q&amp;source=embed&amp;hl=zh-TW&amp;geocode=&amp;q=%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8&amp;aq=&amp;sll=23.63446,120.970459&amp;sspn=6.327923,7.064209&amp;brcurrent=3,0x346e0f2e35f79637:0x506db2d542f0ea0d,0,0x346e43517a7a741b:0x4826a24a54732a37&amp;ie=UTF8&amp;hq=%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8&amp;t=m&amp;cid=16638128726931822066&amp;hnear=&amp;z=14&amp;
 iwloc=A" style="color:#0000FF;text-align:left">檢視較大的地圖</a></small>
 </div>
-<div id='drive' class='trdiv'><a class='btn btn-primary' onclick='javascript: expend("#drive");'>自行開車</a>
+<div id='drive' class='trdiv'><a class='btn btn-primary' onclick='javascript: expend("#drive","32em");'>自行開車</a>
 <p>由岡山、橋頭方向來：省道台1線→（右轉）德民路→（右轉）後昌新路→藍昌路→（左轉）大學南路→本校。</p>
 <p>由梓官方向來：省道台17線（往楠梓）→（左轉）大學南路→本校。 </p>
 <p>由右昌方向來：省道台17線（往梓官）→（右轉）大學南路→本校。 </p>
@@ -223,11 +221,11 @@ iwloc=A" style="color:#0000FF;text-align:left">檢視較大的地圖</a></small>
 <li>國道3號高速公路（往國道10號）→國道10號終點→（右轉）翠華路→左楠路→（左轉）後昌路→後昌新路→藍昌路→（左轉）大學南路→本校。</li>
 </ol>
 </div>
-<div id='thsrc' class='trdiv'><a class='btn btn-primary' onclick='javascript: expend("#thsrc");'>搭乘高鐵</a>
+<div id='thsrc' class='trdiv'><a class='btn btn-primary' onclick='javascript: expend("#thsrc","5em");'>搭乘高鐵</a>
 <p>高鐵（左營站）下車，轉搭高雄捷運至R19（楠梓加工區站），再轉搭紅56號公車到校區。</p>
 </div>
 <div id='train' class='trdiv'>
-<a class='btn btn-primary' onclick='javascript: expend("#train");'>搭乘火車</a>
+<a class='btn btn-primary' onclick='javascript: expend("#train", "7em");'>搭乘火車</a>
 <ol class='trf'>
 <li>台鐵（高雄站）下車，轉搭高雄捷運至R19（楠梓加工區站），再轉搭紅56號接駁公車到校區。</li>
 <li>台鐵（新左營站）下車，轉搭高雄捷運至R19（楠梓加工區站），再轉搭紅56號接駁公車到校區。</li>
@@ -235,7 +233,7 @@ iwloc=A" style="color:#0000FF;text-align:left">檢視較大的地圖</a></small>
 </ol>
 </div>
 <div id='bus' class='trdiv'>
-<a class='btn btn-primary' onclick='javascript: expend("#bus");'>搭乘公車、客運、捷運</a>
+<a class='btn btn-primary' onclick='javascript: expend("#bus", "15em");'>搭乘公車、客運、捷運</a>
 <ul>
 <li>高雄捷運（接駁公車）</li>
 <li>搭乘高雄捷運R19（楠梓加工區站），再轉搭紅56號接駁公車到校區。</li>
