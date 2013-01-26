@@ -1,11 +1,7 @@
 @import url('http://fonts.googleapis.com/css?family=Stalemate');
 @import url('http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300');
 @import url('http://fonts.googleapis.com/css?family=Quintessential');
-
-    @font-face {
-      font-family : "Droid Sans Fallback";
-      src : url('assets/fonts/DroidSansFallback.ttf');
-    }
+@import url('assets/fonts/DroidSansFallback.ttf');
 
     body {
 	background: #FFF url('../img/body-background.jpg') repeat;
