@@ -42,6 +42,10 @@
 	box-shadow: 2px 2px 5px #631;
       }
       
+      .item a:hover {
+	text-decoration: none;
+      }
+      
       .item-block {
 	width: 260px;
 	display: inline-block;
@@ -104,15 +108,42 @@
      <div class="container">
      <h1>人員名單</h1>
      <hr />
+      <div class='row'>
+<!-- Navbuttons on Tablets and PCs -->
+	<div class="btn-group hidden-phone" style='display:block; text-align: center; margin-top: 24px;'>
+	  <a class="btn btn-primary" href='#zhxing'>執行部</a>
+	  <a class="btn btn-primary" href='#xuanfu'>宣輔部</a>
+	  <a class="btn btn-primary" href='#huodong'>活動部</a>
+	  <a class="btn btn-primary" href='#kewu'>課務部</a>  
+	  <a class="btn btn-primary" href='#shenfu'>生輔部</a>
+	  <a class="btn btn-primary" href='#meiz'>美資部</a>
+	  <a class="btn btn-primary" href='#caiwu'>財務部</a>
+	  <a class="btn btn-primary" href='#changqi'>場器部</a>
+	</div>
+<!-- Navbuttons on Phones -->
+	<div class="btn-group visible-phone" style='display:block; text-align: center; margin: 24px auto 5px;'>
+	  <a class="btn btn-primary" href='#zhxing'>執行部</a>
+	  <a class="btn btn-primary" href='#xuanfu'>宣輔部</a>
+	  <a class="btn btn-primary" href='#huodong'>活動部</a>
+	  <a class="btn btn-primary" href='#kewu'>課務部</a>  
+	</div>
+	<div class="btn-group visible-phone" style='display:block; text-align: center;'>
+	  <a class="btn btn-primary" href='#shenfu'>生輔部</a>
+	  <a class="btn btn-primary" href='#meiz'>美資部</a>
+	  <a class="btn btn-primary" href='#caiwu'>財務部</a>
+	  <a class="btn btn-primary" href='#changqi'>場器部</a>
+	</div>      
+      </div>
+      
       <div class="row">
 	  
 	<div class='item'>
-	  <h5>執行部</h5>
+	  <a href='#' title='回頂端'><h5><span id='zhxing' class='anchor'>執行部</span></h5></a>
 	  <div class='item-block'><img src='members/zhxing/1.jpg' /><sup>營長／</sup><span class='name'>五億</span></div>
 	  <div class='item-block'><img src='members/zhxing/2.jpg' /><sup>副營長／</sup><span class='name'>亞今</span></div>
 	</div>
 	<div class='item'>
-	  <h5>宣輔部</h5>
+	  <a href='#' title='回頂端'><h5><span id='xuanfu' class='anchor'>宣輔部</span></h5></a>
 	  <div class='item-block'><img src='members/xuanfu/1.jpg' /><sup>部長／</sup><span class='name'>歪頭</span></div>
 	  <div class='item-block'><img src='members/xuanfu/2.jpg' /><sup>部長／</sup><span class='name'>令衡</span></div>
 	  <div class='item-block'><img src='members/xuanfu/3.jpg' /><sup>副部長／</sup><span class='name'>Emily</span></div>
@@ -138,7 +169,7 @@
 	  <div class='item-block'><img src='members/xuanfu/23.jpg' /><sup>部員／</sup><span class='name'>瓅心</span></div>
 	</div>
 	<div class='item'>
-	  <h5>活動部</h5>
+	  <a href='#' title='回頂端'><h5><span id='huodong' class='anchor'>活動部</span></h5></a>
 	  <div class='item-block'><img src='members/huodong/1.jpg' /><sup>部長／</sup><span class='name'>瑞逸</span></div>
 	  <div class='item-block'><img src='members/huodong/2.jpg' /><sup>副部長／</sup><span class='name'>皓中</span></div>
 	  <div class='item-block'><img src='members/huodong/3.jpg' /><sup>部員／</sup><span class='name'>Miya</span></div>
@@ -159,7 +190,7 @@
 	  <div class='item-block'><img src='members/huodong/18.jpg' /><sup>部員／</sup><span class='name'>葉子</span></div>	  
 	</div>
 	<div class='item'>
-	  <h5>課務部</h5>
+	  <a href='#' title='回頂端'><h5><span id='kewu' class='anchor'>課務部</span></h5></a>
 	  <div class='item-block'><img src='members/kewu/1.jpg' /><sup>部長／</sup><span class='name'>麥兜</span></div>
 	  <div class='item-block'><img src='members/kewu/2.jpg' /><sup>副部長／</sup><span class='name'>閎中</span></div>
 	  <div class='item-block'><img src='members/kewu/3.jpg' /><sup>部員／</sup><span class='name'>宛儀</span></div>	  	  
@@ -170,7 +201,7 @@
 	  <div class='item-block'><img src='members/kewu/8.jpg' /><sup>部員／</sup><span class='name'>欣宜</span></div>		  
 	</div>
 	<div class='item'>
-	  <h5>生輔部</h5>
+	  <a href='#' title='回頂端'><h5><span id='shenfu' class='anchor'>生輔部</span></h5></a>
 	  <div class='item-block'><img src='members/shenfu/1.jpg' /><sup>部長／</sup><span class='name'>耀賢</span></div>
 	  <div class='item-block'><img src='members/shenfu/2.jpg' /><sup>副部長／</sup><span class='name'>鈺佩</span></div>
 	  <div class='item-block'><img src='members/shenfu/3.jpg' /><sup>部員／</sup><span class='name'>芸瑄</span></div>
@@ -178,7 +209,7 @@
       <div class='item-block'><img src='members/shenfu/5.jpg' /><sup>部員／</sup><span class='name'>瑞敏</span></div>		  
 	</div>
 	<div class='item'>
-	  <h5>美資部</h5>
+	  <a href='#' title='回頂端'><h5><span id='meiz' class='anchor'>美資部</span></h5></a>
 	  <div class='item-block'><img src='members/meiz/1.jpg' /><sup>部長／</sup><span class='name'>珊飽</span></div>
 	  <div class='item-block'><img src='members/meiz/2.jpg' /><sup>副部長／</sup><span class='name'>潔安</span></div>
       <div class='item-block'><img src='members/meiz/3.jpg' /><sup>部員／</sup><span class='name'>皓仁</span></div>
@@ -192,11 +223,11 @@
 	 
     </div>
 	<div class='item'>
-	  <h5>財務部</h5>
+	  <a href='#' title='回頂端'><h5><span id='caiwu' class='anchor'>財務部</span></h5></a>
 	  <div class='item-block'><img src='members/caiwu/1.jpg' /><sup>部長／</sup><span class='name'>阿簡</span></div>
 	</div>
 	<div class='item'>
-	  <h5>場器部</h5>
+	  <a href='#' title='回頂端'><h5><span id='changqi' class='anchor'>場器部</span></h5></a>
 	  <div class='item-block'><img src='members/changqi/1.jpg' /><sup>部長／</sup><span class='name'>政彥</span></div>
 	  <div class='item-block'><img src='members/changqi/2.jpg' /><sup>副部長／</sup><span class='name'>琮允</span></div>
 	  <div class='item-block'><img src='members/changqi/3.jpg' /><sup>部員／</sup><span class='name'>章銓</span></div>
