@@ -23,6 +23,22 @@
   border-bottom: 2px solid #333;
 }
 
+#intro_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video_wrapper {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  padding-bottom: 40%;
+}
+
 .item-caption {
   font-size: 120%;
   display:block;
@@ -123,6 +139,15 @@ td {
 
 <div class="container">
   <h1>活動介紹</h1>
+  <hr />
+  <div class='row'>
+    <h3>2013 第二屆高大資管營‧霍格華資</h3>
+      <!-- Intro Video -->
+    <div id='video_wrapper'>
+      <iframe id='intro_video' src="http://www.youtube.com/embed/6tGEUCPfhPM?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+      <!-- End of Intro Video -->
+  </div>
   <hr />
   <div class="row">
     <h3>日程表</h3>
