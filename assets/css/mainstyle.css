@@ -91,7 +91,7 @@ h4 {
   font-size: 115%;
 }
 
-p {
+p, .paragraph {
   text-indent: 2em;
   width: 87%;
   text-align: justify;
