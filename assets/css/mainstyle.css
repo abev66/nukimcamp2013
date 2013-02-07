@@ -39,6 +39,11 @@ body {
   background: #FFF url('../img/body-background.jpg') repeat;
   color: #333;
   font-family: "Roboto Condensed", "WenQuanYi Micro Hei", "Droid Sans Fallback", "微軟正黑體", "Heiti TC", "WenQuanYi Zen Hei", sans-serif;
+  height: 100%;
+}
+
+html {
+  height: 100%;
 }
 
 .container {
@@ -46,6 +51,11 @@ body {
   background: #FFF url('../img/container-background.png') repeat-y;
   background-size: 100% auto;
   box-shadow: 0 0 10px #000;
+  min-height: 100%;
+}
+
+hr:last-child {
+  display:none;
 }
 
 .anchor {
