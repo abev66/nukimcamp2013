@@ -120,6 +120,13 @@ footer {
   box-shadow: 0px 3px 5px #555;
 }
 
+.nav a, .brand {
+  -moz-transition: all 250ms;
+  -webkit-transition: all 250ms;
+  -o-transition: all 250ms;
+  transition: all 250ms;
+}
+
 hr {
   border-bottom: 3px dotted #DA770E;
   border-left: none;
