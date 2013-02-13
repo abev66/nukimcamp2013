@@ -2924,7 +2924,7 @@ table th[class*="span"],
 .dropdown-submenu:hover > a {
   color: #ffffff;
   text-decoration: none;
-  background-color: #0081c2;
+  background-color: #DA770E;
   background-image: -moz-linear-gradient(top, #DA770E, #CA610D);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#DA770E), to(#CA610D));
   background-image: -webkit-linear-gradient(top, #DA770E, #CA610D);
@@ -2938,7 +2938,7 @@ table th[class*="span"],
 .dropdown-menu .active > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #0081c2;
+  background-color: #DA770E;
   background-image: -moz-linear-gradient(top, #DA770E, #CA610D);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#DA770E), to(#CA610D));
   background-image: -webkit-linear-gradient(top, #DA770E, #CA610D);
