@@ -121,10 +121,21 @@ footer {
 }
 
 .nav a, .brand {
-  -moz-transition: all 250ms;
-  -webkit-transition: all 250ms;
-  -o-transition: all 250ms;
-  transition: all 250ms;
+  -moz-transition: all 250ms ease-out;
+  -webkit-transition: all 250ms ease-out;
+  -o-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+}
+
+.brand:hover {
+  text-shadow: #FFF 0 0 5px; 
+}
+
+a {
+  -moz-transition: color 150ms;
+  -webkit-transition: color 150ms;
+  -o-transition: color 150ms;
+  transition: color 150ms;
 }
 
 hr {
