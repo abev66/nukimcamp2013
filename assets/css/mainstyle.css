@@ -1,0 +1,204 @@
+@import url('http://fonts.googleapis.com/css?family=Stalemate');
+@import url('http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300');
+@import url('http://fonts.googleapis.com/css?family=Quintessential');
+
+/*
+                                                                                                    
+http://imcamp.im.nuk.edu.tw/2013/                                                                      
+                                                                                                    
+                                                                                                    
+   NN    NN  UU     UU  KK   KK     III     A     A         CCCCCC     AAA      A     A   PPPPPPP   
+   NNN   NN  UU     UU  KK  KK      III    MMM   MMM       CCC        AAAAA    MMM   MMM  PP   )PP  
+   NNNN  NN  UU     UU  KK KK       III    MMM   MMM      CCC        AAA AAA   MMM   MMM  PP   /PP  
+   NN NNVNN  UU     UU  KKVKK       III   MMMMM MMMMM     CCC       /AA   AA\ MMMMM MMMM  PPPPPPP   
+   NN   NNN  UU     UU  KK  KK      III  MMM  MVM  MMM    CCC       AAAAAAAAA MM  MVM MMM PP        
+   NN    NN   UU   UU   KK   KK     III  MM   MMM   MM     CCC  CCCAAA    AAAAMM  MMM  MM PP        
+   NN    \N    VUUUV    KK    KK    III MMM    V    MMM      *CCC* AAA    AAAAMM   V   MM PP        
+                                                                                                    
+                                                                                                    
+                         _____            ___               _            ____                       
+                       22222222         0000000           111         333333333                     
+                      22      222     000     000      111111        33      333                    
+                               22     00       00     Z111111                 33                    
+                               22    000       000       1111                333                    
+                              222    000       000       1111              3333                     
+                             222     000       000       1111            33333                      
+                           ,222      000       000       1111                333                    
+                          222        000       000       1111                 333                   
+                        222           00       00        1111                 333                   
+                      2222             0000  0000       111111        33     333                    
+                     2222222222222      \00000/      111111111111     3333 3333                     
+                                                                         333                        
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                        Love'n'Peace
+*/
+
+body {
+  background: #FFF url('../img/body-background.jpg') repeat;
+  color: #333;
+  font-family: "Roboto Condensed", "WenQuanYi Micro Hei", "Droid Sans Fallback", "微軟正黑體", "Heiti TC", "WenQuanYi Zen Hei", sans-serif;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.container {
+  padding-top: 50px;
+  background: #FFF url('../img/container-background.png') repeat-y;
+  background-size: 100% auto;
+  box-shadow: 0 0 10px #000;
+  min-height: 100%;
+}
+
+hr:last-child {
+  display:none;
+}
+
+.anchor {
+  padding-top: 5em;
+  display: inline;
+}
+
+h1 {
+  text-align: right;
+  margin-right: 1.2em;
+  font-weight: normal;
+  text-shadow: 2px 2px 4px #641;
+}
+
+h2 {
+  font-weight: normal;
+  margin-left: 0.5em;
+  text-shadow: 2px 2px 4px #641;
+  font-size: 3em;
+  font-family: "Stalemate"; 
+}
+
+h3 {
+  font-weight: normal;
+  margin-left: 1em;
+  margin-top: 1.2em;
+}
+
+h4 {
+  font-weight: normal;
+  margin-left: 2.5em;
+  color: #8E0002;
+  font-size: 115%;
+}
+
+p, .paragraph {
+  text-indent: 2em;
+  width: 87%;
+  text-align: justify;
+  margin: 0.5em auto;
+}
+
+#logo {
+  margin: -30px 0 0;
+  position: absolute;
+  z-index: 1500;
+}
+
+footer {
+  display: block;
+  text-align:center;
+  margin: 1em 0;
+}
+
+.row {
+  margin: 0 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.navbar {
+  box-shadow: 0px 3px 5px #555;
+}
+
+.nav a, .brand, .carousel-control {
+  -moz-transition: all 250ms ease-out;
+  -webkit-transition: all 250ms ease-out;
+  -o-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+}
+
+.carousel-control {
+  border-color: transparent;
+  background: transparent;
+}
+
+.carousel-control:hover {
+  border-color: #FFF;
+  box-shadow: #FFF 0 0 10px;
+}
+
+.brand:hover {
+  text-shadow: #FFF 0 0 5px; 
+}
+
+a {
+  -moz-transition: color 150ms;
+  -webkit-transition: color 150ms;
+  -o-transition: color 150ms;
+  transition: color 150ms;
+}
+
+hr {
+  border-bottom: 3px dotted #DA770E;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 75%;
+  margin: 1em auto;
+  background-color: rgba(0,0,0,0);
+}
+
+.alert {
+  box-shadow: 2px 2px 5px #641;
+  width: 70%;
+  margin: 0 auto 0.5em;
+}
+
+
+.carousel-caption>p {
+  text-indent: 0;
+  width: auto;
+  text-align: left;
+}
+
+.carousel-inner > .item > img {
+  width: 100%;
+}
+
+@media (max-width: 979px) {
+  .navbar {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .container {
+    padding-top: 0;
+  }
+}
+
+@media (min-width:980px) {
+  #logo-spacer{
+    margin-left: 4.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  body{
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-inner {
+    margin: 0 1.2em;
+  }
+}
